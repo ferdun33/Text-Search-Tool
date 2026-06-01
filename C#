@@ -1,0 +1,25 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string text =
+            "C# makes text searching easy.";
+
+        string keyword = "searching";
+
+        if (text.Contains(keyword))
+        {
+            Console.WriteLine(
+                $"Keyword \"{keyword}\" found"
+            );
+        }
+        else
+        {
+            Console.WriteLine(
+                $"Keyword \"{keyword}\" not found"
+            );
+        }
+    }
+}
