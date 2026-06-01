@@ -1,0 +1,11 @@
+text = "Python makes text searching easy."
+
+keyword = "searching"
+
+if keyword in text:
+
+    print(f'Keyword "{keyword}" found')
+
+else:
+
+    print(f'Keyword "{keyword}" not found')
