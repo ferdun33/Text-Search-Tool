@@ -1,0 +1,17 @@
+const text =
+    "JavaScript makes text searching easy.";
+
+const keyword = "searching";
+
+if (text.includes(keyword)) {
+
+    console.log(
+        `Keyword "${keyword}" found`
+    );
+
+} else {
+
+    console.log(
+        `Keyword "${keyword}" not found`
+    );
+}
